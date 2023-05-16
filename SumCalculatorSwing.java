@@ -11,6 +11,7 @@ public class SumCalculatorSwing {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JLabel label1 = new JLabel("Number 1:");
+        //JLabel label1 = new JLabel("Number 1:");
         JTextField textField1 = new JTextField();
         JLabel label2 = new JLabel("Number 2:");
         JTextField textField2 = new JTextField();
