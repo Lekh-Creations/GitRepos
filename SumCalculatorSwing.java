@@ -20,19 +20,7 @@ public class SumCalculatorSwing {
         textField3.setEditable(false);
 
         JButton button = new JButton("Submit");
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                try {
-                    double num1 = Double.parseDouble(textField1.getText());
-                    double num2 = Double.parseDouble(textField2.getText());
-                    double sum = num1 + num2;
-                    textField3.setText(Double.toString(sum));
-                } catch (NumberFormatException ex) {
-                    textField3.setText("Invalid input!");
-                }
-            }
-        });
+        button.addActionListener(new ActionListener() );
 
         frame.add(label1);
         frame.add(textField1);
